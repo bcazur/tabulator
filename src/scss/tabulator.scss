@@ -347,6 +347,11 @@ $footerActiveColor:#d00 !default; //footer bottom active text color
 				}
 			}
 		}
+		.tabulator-col:first-child{
+			.tabulator-col-title{
+				justify-content: center;
+			}
+		}
 		
 		.tabulator-frozen{
 			position: sticky;

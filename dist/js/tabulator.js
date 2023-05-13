@@ -1,4 +1,4 @@
-/* Tabulator v5.4.2 (c) Oliver Folkerd 2022 */
+/* Tabulator v5.4.2 (c) Oliver Folkerd 2023 */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
@@ -11171,7 +11171,7 @@
 			var index = el.value.length,
 			char = e.key;
 
-			if(e.keyCode > 46){
+			if(e.keyCode > 46 && !e.ctrlKey && !e.metaKey){
 				if(index >= mask.length){
 					e.preventDefault();
 					e.stopPropagation();

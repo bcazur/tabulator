@@ -592,6 +592,10 @@
   bottom: auto;
 }
 
+.tabulator .tabulator-header .tabulator-col:first-child .tabulator-col-title {
+  justify-content: center;
+}
+
 .tabulator .tabulator-header .tabulator-frozen {
   position: sticky;
   left: 0;
