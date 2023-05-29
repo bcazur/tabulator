@@ -1235,7 +1235,7 @@ body.tabulator-print-fullscreen-hide > *:not(.tabulator-print-fullscreen) {
 }
 
 .tabulator .tabulator-footer .tabulator-page.active {
-  color: black;
+  color: var(--color-redish) !important;
 }
 
 .tabulator .tabulator-table {

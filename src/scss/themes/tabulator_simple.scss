@@ -105,7 +105,7 @@ $footerActiveColor: #d00 !default; //footer bottom active text color
 		}
 
 		.tabulator-page.active {
-			color: black;
+			color: var(--color-redish) !important;
 
 		}
 	}
